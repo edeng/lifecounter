@@ -42,17 +42,7 @@ public class MainActivity extends ActionBarActivity {
         findViewById(R.id.p4MinusOne).setOnClickListener(mClickListener);
         findViewById(R.id.p4PlusFive).setOnClickListener(mClickListener);
         findViewById(R.id.p4MinusFive).setOnClickListener(mClickListener);
-//
-//        final Button button = (Button) findViewById(R.id.p1PlusOne);
-//        if (button != null) {
-//            button.setOnClickListener(new View.OnClickListener() {
-//                @Override
-//                public void onClick(View v) {
-//                    TextView text = (TextView) findViewById(R.id.p1Score);
-//                    text.setText(p1Score + 1 + "");
-//                }
-//            });
-//        }
+
     }
 
     @Override
