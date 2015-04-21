@@ -92,29 +92,17 @@
         android:layout_toEndOf="@+id/p1MinusOne" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/life"
-        android:id="@+id/p1Life"
-        android:layout_marginLeft="35dp"
-        android:layout_marginStart="35dp"
-        android:layout_above="@+id/p2"
-        android:layout_toRightOf="@+id/p1MinusFive"
-        android:layout_toEndOf="@+id/p1MinusFive" />
-
-    <TextView
         android:layout_width="10dp"
         android:layout_height="wrap_content"
         android:id="@+id/p1Score"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignBottom="@+id/p1MinusFive"
-        android:layout_toRightOf="@+id/p1Life"
-        android:layout_toEndOf="@+id/p1Life"
         android:layout_alignParentTop="true"
         android:text="20"
-        android:textSize="20pt" />
+        android:textSize="20pt"
+        android:layout_toRightOf="@+id/p1MinusFive"
+        android:layout_toEndOf="@+id/p1MinusFive" />
 
     <Button
         android:layout_width="wrap_content"
@@ -245,8 +233,8 @@
         android:id="@+id/p3Score"
         android:textSize="20pt"
         android:layout_alignTop="@+id/p3MinusFive"
-        android:layout_toRightOf="@+id/p1Life"
-        android:layout_toEndOf="@+id/p1Life" />
+        android:layout_toRightOf="@+id/p1MinusFive"
+        android:layout_toEndOf="@+id/p1MinusFive" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -266,7 +254,6 @@
         android:id="@+id/loser"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:textSize="40sp"
-        android:textColor="#FF0000" />
+        android:textSize="40sp" />
 
 </RelativeLayout>
