@@ -92,7 +92,7 @@
         android:layout_toEndOf="@+id/p1MinusOne" />
 
     <TextView
-        android:layout_width="10dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/p1Score"
         android:layout_alignParentRight="true"
@@ -100,7 +100,7 @@
         android:layout_alignBottom="@+id/p1MinusFive"
         android:layout_alignParentTop="true"
         android:text="20"
-        android:textSize="20pt"
+        android:textSize="40sp"
         android:layout_toRightOf="@+id/p1MinusFive"
         android:layout_toEndOf="@+id/p1MinusFive" />
 
@@ -213,7 +213,7 @@
         android:layout_alignStart="@+id/p3MinusFive" />
 
     <TextView
-        android:layout_width="10dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="20"
@@ -221,7 +221,7 @@
         android:layout_alignTop="@+id/p2MinusFive"
         android:layout_alignLeft="@+id/p1Score"
         android:layout_alignStart="@+id/p1Score"
-        android:textSize="20pt"
+        android:textSize="40sp"
         android:layout_alignRight="@+id/p1Score"
         android:layout_alignEnd="@+id/p1Score" />
 
@@ -231,10 +231,11 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="20"
         android:id="@+id/p3Score"
-        android:textSize="20pt"
+        android:textSize="40sp"
         android:layout_alignTop="@+id/p3MinusFive"
         android:layout_toRightOf="@+id/p1MinusFive"
-        android:layout_toEndOf="@+id/p1MinusFive" />
+        android:layout_alignRight="@+id/p2Score"
+        android:layout_alignEnd="@+id/p2Score" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -242,10 +243,12 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="20"
         android:id="@+id/p4Score"
-        android:textSize="20pt"
+        android:textSize="40sp"
         android:layout_alignBottom="@+id/p4MinusFive"
         android:layout_alignLeft="@+id/p3Score"
-        android:layout_alignStart="@+id/p3Score" />
+        android:layout_alignStart="@+id/p3Score"
+        android:layout_alignRight="@+id/p3Score"
+        android:layout_alignEnd="@+id/p3Score" />
 
     <TextView
         android:layout_width="wrap_content"

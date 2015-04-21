@@ -221,7 +221,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="20"
         android:id="@+id/p1Score"
-        android:textSize="40sp"
+        android:textSize="30sp"
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@+id/p1MinusFive"
         android:layout_toEndOf="@+id/p1MinusFive" />
@@ -235,7 +235,7 @@
         android:layout_alignBottom="@+id/p2MinusFive"
         android:layout_toRightOf="@+id/p2MinusFive"
         android:layout_toEndOf="@+id/p2MinusFive"
-        android:textSize="40sp" />
+        android:textSize="30sp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -246,7 +246,7 @@
         android:layout_alignBottom="@+id/p3MinusFive"
         android:layout_toRightOf="@+id/p3MinusFive"
         android:layout_toEndOf="@+id/p3MinusFive"
-        android:textSize="40sp" />
+        android:textSize="30sp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -257,6 +257,6 @@
         android:layout_alignBottom="@+id/p4MinusFive"
         android:layout_toRightOf="@+id/p4MinusFive"
         android:layout_toEndOf="@+id/p4MinusFive"
-        android:textSize="40sp" />
+        android:textSize="30sp" />
 
 </RelativeLayout>
